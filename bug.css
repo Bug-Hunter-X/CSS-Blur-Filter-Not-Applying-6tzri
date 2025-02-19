@@ -1,0 +1,1 @@
+The CSS property `filter: blur(5px);` is applied to an element, but the blur effect is not visible or is not working as expected.  The element is visible and other CSS properties applied to it are working correctly. The browser's developer tools do not show any errors related to the filter property.
