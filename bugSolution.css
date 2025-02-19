@@ -1,0 +1,13 @@
+/* bugSolution.css */
+
+#blurred-element {
+  filter: blur(5px);
+  /*Ensure correct z-index if stacking context is needed*/
+  z-index: 0;  
+  /*Ensure no conflicting transform property*/
+  transform: none;
+  /*Add a background color to make sure the element is visible*/
+  background-color: lightblue; 
+}
+
+/*Make sure that there are no conflicting styles in parent or other elements that are interfering with the filter property. Check specificity and z-index*/
